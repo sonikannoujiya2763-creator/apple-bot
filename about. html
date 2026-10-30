@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="hi">
+<meta charset='utf=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<head>
+<title>local host</title>
+<style>
+background-color: lightblue;
+            color: white;
+            align-items: center;
+            justify-content: center; /* स्क्रीन के बीच में लाने के लिए */
+            display: flex;
+            flex-direction: column; /* टेक्स्ट को एक के नीचे एक रखने के लिए */
+            min-height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+</style>
+</head>
+<body>
+<h1>you are fool</h1>
+<h1>💩</h1>
+</body>
+</html>
