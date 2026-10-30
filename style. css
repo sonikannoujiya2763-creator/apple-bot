@@ -1,18 +1,26 @@
-html{
-background-color:white;
-font-family:"sege ui"
+html {
+    background-color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-margin:0;
-aling-item:center;
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* पूरी स्क्रीन की ऊंचाई देने के लिए इसे यहाँ रखें */
 }
-BUTTON{
-bACKGROUND-COLOR:BLUE;
-PADDING:0;
-HEIGHT:100VH;
-BORDER:NONE;
-BORDER-RADIUS:8PX;
-BOX-SHADOW:rgba(0,0,0,0.1);
+
+button {
+    background-color: blue;
+    color: white; /* नीले बटन पर टेक्स्ट सफेद दिखेगा */
+    padding: 10px 20px; /* बटन को सही आकार देने के लिए */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* सही शैडो इफेक्ट */
+    cursor: pointer;
 }
-button:hover{
-background-color:blue;}
+
+button:hover {
+    background-color: darkblue; /* माउस ले जाने पर बटन थोड़ा गहरा नीला होगा */
+}
